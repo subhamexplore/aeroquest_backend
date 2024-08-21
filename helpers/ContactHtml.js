@@ -3,9 +3,6 @@ exports.ContactHtml = (fname, lname, email, message) => {
           class="container p-5"
           style="padding: 0px 0px; text-align: justify;line-height: 25px;"
         >
-        <div style="border: 1px solid rgb(35, 77, 0); padding: 5px 20px; background-color: rgba(224, 255, 198, 1);">
-        <p>Thanks for contacting us! We will be in touch with you shortly.</p>
-    </div>
             <div style="display: flex; align-items: center;">
                 <div style="font-weight: 600">First Name:</div>
                 <div style="font-weight: 500; margin-left: 3px;">${fname}</div>
